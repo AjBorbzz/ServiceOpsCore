@@ -1,10 +1,19 @@
 # Project Name: ServiceOps Core 
 
+ServiceOps Core is a production-style backend-heavy platform built with FastAPI, PostgreSQL, Redis, Celery, Docker, and Next.js. It supports dynamic business templates, async file processing, quote approvals, work order tracking, role-based access, and audit logs.
+
 ### First vertical: Repair Shop Edition
 
-### Secomd Vertical: Property Maintenance, Manufacturing Maintenance
+### Second Vertical: Property Maintenance, Manufacturing Maintenance
 
-#### Core Stack: FastAPI, PostgreSQL, Redis, Celery, Docker, Next.js, TypeScript
+### Core Stack: 
+    - FastAPI, 
+    - PostgreSQL, 
+    - Redis, 
+    - Celery, 
+    - Docker, 
+    - Next.js, 
+    - TypeScript
 
 ### Build Overview:
 Phase 0  - Project definition
@@ -24,3 +33,22 @@ Phase 13 - Testing
 Phase 14 - Production readiness
 Phase 15 - Deployment
 Phase 16 - Portfolio packaging
+
+### Features:
+### Included
+
+- User registration and login
+- Organization workspace
+- Business template selection
+- Dynamic request form
+- Customer request submission
+- File/photo upload
+- Celery background image processing
+- Admin request review
+- Quote creation
+- Customer quote acceptance/rejection
+- Work order creation
+- Work order status updates
+- Audit logs
+- Dockerized local environment
+- Live deployment
